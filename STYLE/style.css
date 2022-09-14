@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@1,200;1,500&family=Poppins:wght@100;200&display=swap');
+*{
+    font-family: 'Mali', cursive;
+    font-family: 'Poppins', sans-serif;   
+}
+#navbar{
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+    background-color:#00000020;
+    flex-wrap: wrap;
+}
+#navbar>h3>a{
+    text-decoration: none;
+    color: black;
+}
+#container{
+    /* width: 98%; */
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    justify-content:center;
+    
+    
+}
+#cards{
+    text-align: center;
+    background-color:rgba(255, 192, 203, 0.119);
+    padding:10px;
+    border-radius: 10px;
+}
+#cards>img{
+    width: 100%;
+}
+#cards:hover{
+    transform:scale(1.05)
+}
+#search-bar{
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    height: 270px;
+    margin-top:-20px ;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.search>input{
+   padding: 10px 40px;
+   border-radius: 10px;
+   border: none;
+   
+}
+.submit>button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 5px;
+}
+.country{
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.country>button{
+    text-transform: capitalize;
+    border: none;
+    padding: 5px 15px;
+    border: 1px solid red;
+    border-radius: 10px;
+    }
+
+    .country>button:hover{
+        border: 2px solid red;
+    }

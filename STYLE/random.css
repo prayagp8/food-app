@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@1,200;1,500&family=Poppins:wght@100;200&display=swap');
+*{
+    font-family: 'Mali', cursive;
+    font-family: 'Poppins', sans-serif;   
+}
+#navbar{
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+    background-color:#00000020;
+    flex-wrap: wrap;
+}
+#navbar>h3>a{
+    text-decoration: none;
+    color: black;
+}
+#container{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding:20px;
+    margin-top:50px
+}
+#cards{
+    display: flex;
+    gap: 50px;
+}
+#cards>div>img{
+    width: 250px
+}
