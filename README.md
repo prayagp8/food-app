@@ -1,8 +1,7 @@
 
 # Food App 
 Deploy Link :
-
-<a href="thefoodappp.netlify.app">Click</a>
+https://thefoodappp.netlify.app/
 This is a food recipe application in which you can search your food items recipe 
 And find food according to the continent
 
