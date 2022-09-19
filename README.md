@@ -19,6 +19,8 @@ Database:
 
 ![App Screenshot](https://drive.google.com/file/d/1Zfd-FvsNV2TufZKuHwKB8I0kjxgmZT0e/view?usp=sharing)
 
+<img src="https://drive.google.com/file/d/1Zfd-FvsNV2TufZKuHwKB8I0kjxgmZT0e/view?usp=sharing" width="29">
+
 
 
 
